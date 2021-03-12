@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+
+/* MAIN-SIDEBAR */
+.container{
+    display: flex;
+}
+
+.container .side-bar{
+    background: black;
+    width: 20%;
+    height: 100vh;
+}
+
+.container .side-bar .main-logo{
+    width: 185px;
+    padding-top: 20px;
+}
+
+.spotify-logo{
+    padding-left: 10px;
+}
+
+/* HOME-SEARCH-LIBRARY */
+.side-home-cerca p{
+    margin-left: 10px;
+}
+
+ .about-side-1{
+    color: #858585;
+}
+
+.about-side{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    padding-left: 10px;
+    border-left: 3px solid #ADFF2F;
+}
+
+.about-side-1{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    padding-left: 14px;
+}
+
+.about-side img,
+.about-side-1 img{
+    width: 40px;
+}
+
+
+/* LISTA-NOME-LISTA */
+.lista-container {
+ padding-left: 15px;
+ margin-top: 30px;
+}
+
+.lista-container h2{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.mini-quadrato{
+    height: 50px;
+    width: 50px;
+    background: #A3A3A3;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* CONTEINER LOGO-PLUS, CREA-PLAYLIST */
+.inline{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inline p{
+    color: #858585;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.plus-logo{
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* BARRA-HEADER-IMMAGINI */
+.nav-bar{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: chocolate;
+}
+
+.main-brand {
+    background: darkgray;
+    width: 100%;
+}
+
+.mini-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-brand .main-barra{
+    height: 80px;
+    background: brown;
+}
+.mini-container .gallery{
+    background: black;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    color: #fff;
+}
+
+/* FOOTER */
+.main-footer{
+    background: darkslateblue;
+    height: 100px;
+}
+
+.musica{
+    display: flex;
+    justify-content: space-between;
+}
+
+.musica-quad{
+    background: dodgerblue;
+    border: 1px solid black;
+    height: 100px;
+}
