@@ -13,12 +13,17 @@ body{
 /* MAIN-SIDEBAR */
 .container{
     display: flex;
+    height: 100vh;
 }
 
 .container .side-bar{
     background: black;
     width: 20%;
-    height: 100vh;
+    /* height: 100vh; */
+}
+
+.container{
+    height: calc(100vh - 60px);
 }
 
 .container .side-bar .main-logo{
@@ -52,6 +57,7 @@ body{
     margin-top: 10px;
     align-items: center;
     padding-left: 14px;
+    
 }
 
 .about-side img,
@@ -113,6 +119,59 @@ body{
     padding-bottom: 20px;
 }
 
+/* INSTALLA-LOGO-FINE */
+  .prova{
+      display: flex;
+      flex-direction: row;
+      color: #858585;
+      margin-top: 100px;
+}  
+
+.install-logo{
+    width: 20px;
+    height: 20px; 
+    border: 1px solid;
+    border-radius: 50%; 
+    text-align: center;
+     line-height: 15px; 
+    display: inline-block;
+}
+
+.prova p{
+    margin-left: 10px;
+}
+
+
+.install-logo i{
+    font-size: 10px;
+    color: #858585;
+}
+
+.border-bottom{
+    border: 1px solid #858585;
+    margin-top: 20px;
+    width: 270px;
+}
+
+.side-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.immagine-profilo img{
+    height: 20px;
+    width: 20px;
+    background: #808080;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.side-footer p{
+    color: #fff;
+    margin-left: 10px;
+    
+}
 
 /* BARRA-HEADER-IMMAGINI */
 .nav-bar{
@@ -146,7 +205,7 @@ body{
 /* FOOTER */
 .main-footer{
     background: darkslateblue;
-    height: 80px;
+    height: 60px;
 }
 
 .musica{
@@ -157,5 +216,5 @@ body{
 .musica-quad{
     background: dodgerblue;
     border: 1px solid black;
-    height: 80px;
+    height: 60px;
 }
