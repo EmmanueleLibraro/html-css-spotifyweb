@@ -22,8 +22,12 @@ body{
     /* height: 100vh; */
 }
 
+.main-section{
+    /* height: calc(100vh - 60px); */
+}
+
 .container{
-    height: calc(100vh - 60px);
+    /* height: calc(100vh - 60px); */
 }
 
 .container .side-bar .main-logo{
@@ -206,10 +210,6 @@ body{
     width: 100%;
 }
 
-.mini-container{
-    display: flex;
-}
-
 .main-brand .main-barra{
     height: 100px;
     background: rgba(8, 11, 18, 0.9);
@@ -233,13 +233,63 @@ body{
     border-radius: 50px;
 }
 
-.mini-container .gallery{
-    background: #fff;
+/* IMMAGINI */
+.gallery{
+    display: flex;
+    justify-content: center;
+}
+
+.mini-container .col{
     width: 250px;
-    height: 250px;
     margin: 10px;
 }
 
+.immagini{
+    height: 250px;
+}
+
+.immagini img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.col h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.col p{
+    color: #858585;
+    text-align: center;
+}
+
+/* IMMAGINI-2 */
+.gallery-2{
+    display: flex;
+}
+
+.mini-container h2{
+    margin-top: 40px;
+}
+.mini-container h2,p{
+    padding-left: 10px;
+}
+
+.mini-container p{
+    color: #858585;
+    margin-top: 10px;
+}
+
+/* IMMAGINI-3 */
+.gallery-3{
+    display: flex;
+}
+
+.gallery-3 img{
+    border-radius: 50%;
+}
 /* FOOTER */
 .main-footer{
     background: darkslateblue;
