@@ -176,13 +176,33 @@ body{
 /* BARRA-HEADER-IMMAGINI */
 .nav-bar{
     display: flex;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: chocolate;
+    justify-content: center;
+}
+
+.nav-bar a{
+    color: #858585;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: .3s;
+}
+
+.nav-bar .border{
+    border-bottom: 3px solid #ADFF2F;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 2px;
+    transition: .3s;
+}
+
+.nav-bar a:hover{
+    color:#fff;
 }
 
 .main-brand {
-    background: darkgray;
+    background: #141922;
     width: 100%;
 }
 
@@ -191,15 +211,33 @@ body{
 }
 
 .main-brand .main-barra{
-    height: 80px;
-    background: brown;
+    height: 100px;
+    background: rgba(8, 11, 18, 0.9);
 }
+.bottone-1{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 100%;
+    padding-right: 5px;
+}
+
+.main-barra .bottone-1 .upgrade-button{
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 260px;
+    height: 50px;
+    background: rgba(8, 11, 18, 0.4);
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+
 .mini-container .gallery{
-    background: black;
+    background: #fff;
     width: 250px;
     height: 250px;
     margin: 10px;
-    color: #fff;
 }
 
 /* FOOTER */
