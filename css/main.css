@@ -229,6 +229,7 @@ p:hover{
     margin: 0 auto;
     margin-top: 2px;
     transition: .3s;
+    
 }
 
 .nav-bar a:hover{
@@ -261,6 +262,14 @@ p:hover{
     align-items: center;
     height: 100%;
     padding-right: 20px;
+}
+
+.upgrade-button{
+    transition: all .4s;
+}
+
+.bottone-1:hover .upgrade-button{
+    transform: translateY(-10px);
 }
 
 .main-barra .bottone-1 .upgrade-button{
@@ -318,6 +327,7 @@ p:hover{
 .immagini{
     height: 230px;
     position: relative;
+    cursor: pointer;
 }
 
 .immagini img{
@@ -352,6 +362,7 @@ p:hover{
 .mini-container p{
     color: #858585;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* IMMAGINI-3 */
@@ -441,6 +452,11 @@ p:hover{
     margin-left: 30px;
     padding-top: 10px;
     cursor: pointer;
+    transition: .3s;
+}
+
+.media-player i:hover{
+    color: #ADFF2F;
 }
 
 /* LINEA-TEMPO */
@@ -448,11 +464,13 @@ p:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: .3s;
 }
 
 .linea-tempo p{
     padding-left: 0;
     padding: 5px 20px;
+    position: relative;
 }
 
 .border-tempo{
@@ -463,6 +481,39 @@ p:hover{
     border-radius: 5px;
     margin-right: 5px;
     margin-left: 5px;
+    cursor: pointer;
+}
+
+.border-tempo-1{
+    border: 3px solid #ADFF2F;
+    width: 5%;
+    height: 3px;
+    display: inline-block;
+    border-radius: 5px;
+    position: absolute;
+    left: 35%;
+    display: none;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.linea-tempo:hover .border-tempo-1{
+    display: block;
+}
+
+.pallina-tempo{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    left: 40%;
+    display: none;
+    cursor: pointer;
+}
+
+.linea-tempo:hover .pallina-tempo{
+    display: block;
 }
 
 /* FOOTER-DESTRA */
@@ -471,10 +522,17 @@ p:hover{
     align-items: center;
     padding-top: 30px;
     padding-left: 10px;
+    cursor: pointer;
+    position: relative;
 }
 
 .icone-destra-footer i{
     margin-left: 10px;
+    transition: .3s;
+}
+
+.icone-destra-footer i:hover{
+    color: #ADFF2F;
 }
 
 .barra-volume{
@@ -485,4 +543,37 @@ p:hover{
     border-radius: 5px;
     margin-right: 10px;
     margin-left: 10px;
+}
+
+.linea-tempo2{
+    border: 3px solid #ADFF2F;
+    width: 35%;
+    height: 3px;
+    display: inline-block;
+    border-radius: 5px;
+    position: absolute;
+    left: 35%;
+    display: none;
+    margin-left: 15px;
+    cursor: pointer;
+    left: 27%;
+}
+
+.icone-destra-footer:hover .linea-tempo2{
+    display: block;
+}
+
+.pallina-volume{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    left: 63%;
+    display: none;
+    cursor: pointer;
+}
+
+.icone-destra-footer:hover .pallina-volume{
+    display: block;
 }
