@@ -9,27 +9,15 @@ body{
     color: #fff;
 }
 
-
-/* MAIN-SIDEBAR */
-.container{
-    display: flex;
-    height: 100vh;
-}
-
 .container .side-bar{
     background: black;
     width: 20%;
-    /* height: 100vh; */
+    overflow: hidden;
 }
 
-/* .main-section{
-     height: calc(100vh - 60px); 
-} */
-
 .container{
+    display: flex;
     height: calc(100vh - 80px);
-    overflow-y: auto;
-    height: 100%;
 }
 
 .container .side-bar .main-logo{
@@ -126,11 +114,11 @@ body{
 }
 
 /* INSTALLA-LOGO-FINE */
-  .prova{
+  .download{
       display: flex;
       flex-direction: row;
       color: #858585;
-      margin-top: 100px;
+      margin-top: 130px;
 }  
 
 .install-logo{
@@ -139,11 +127,11 @@ body{
     border: 1px solid;
     border-radius: 50%; 
     text-align: center;
-     line-height: 15px; 
+    line-height: 15px; 
     display: inline-block;
 }
 
-.prova p{
+.download p{
     margin-left: 10px;
 }
 
@@ -208,16 +196,18 @@ body{
     color:#fff;
 }
 
-.main-brand {
+.main-content {
     background: #141922;
     width: 100%;
-}
-
-.barra-header{
     position: relative;
 }
 
-.main-brand .main-barra{
+.scrollable{
+    overflow-y: auto;
+    height: 100%;
+}
+
+.main-content .main-barra{
     height: 100px;
     background: rgba(8, 11, 18, 0.9);
     position: absolute;
@@ -230,7 +220,7 @@ body{
     flex-direction: row-reverse;
     align-items: center;
     height: 100%;
-    padding-right: 5px;
+    padding-right: 20px;
 }
 
 .main-barra .bottone-1 .upgrade-button{
@@ -303,7 +293,7 @@ body{
 }
 /* FOOTER */
 .main-footer{
-    background: darkslateblue;
+    background: #282828;
     height: 80px;
 }
 
@@ -313,11 +303,61 @@ body{
 }
 
 .musica-quad{
-    background: dodgerblue;
     border: 1px solid black;
     height: 80px;
+    width: 320px;
+}
+
+.musica-quad .musica-ascolto img{
+    height: 60px;
 }
 
 .musica-quad .musica-ascolto{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+}
 
+.titolo-brano-footer h4{
+    padding-left: 10px;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.titolo-brano-footer p{
+    color: #858585;
+    font-size: 12px;
+}
+
+.icone-flex{
+   margin-left: 120px;
+   width: 50px;
+   display: flex;
+} 
+.icone-flex i{
+    padding-right: 10px;
+    color: #858585;
+    transition: .3s;
+}
+
+.icone-flex i:hover{
+    color: #fff;
+}
+
+/* MEDIA-PLAYER */
+.musica-quad-1{
+    height: 80px;
+    width: 500px;
+    border: 1px solid black;
+}
+
+.larghezza{
+    flex-basis: 100px;
+}
+
+.media-player{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
 }
