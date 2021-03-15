@@ -44,6 +44,7 @@ body{
     align-items: center;
     padding-left: 10px;
     border-left: 3px solid #ADFF2F;
+    transition: .3s;
 }
 
 .about-side-1{
@@ -51,12 +52,18 @@ body{
     margin-top: 10px;
     align-items: center;
     padding-left: 14px;
+    transition: .3s;
     
 }
 
 .about-side img,
 .about-side-1 img{
     width: 40px;
+}
+
+.about-side:hover,
+.about-side-1:hover{
+    color: #fff;
 }
 
 
@@ -91,6 +98,11 @@ body{
     color: #858585;
     font-size: 18px;
     padding-left: 10px;
+    transition: .3s;
+}
+
+.inline-row p:hover{
+ color: #fff;
 }
 
 .plus-logo{
@@ -111,7 +123,13 @@ body{
 .lista-playlist li{
     color: #858585;
     padding-bottom: 20px;
+    transition: .3s;
 }
+
+.lista-playlist li:hover{
+    color: #fff;
+}
+
 
 /* INSTALLA-LOGO-FINE */
   .download{
@@ -129,16 +147,37 @@ body{
     text-align: center;
     line-height: 15px; 
     display: inline-block;
+    transition: .3s;
+}
+
+.install-logo:hover i{
+    color: #fff;
+}
+
+.install-logo:hover{
+    color: #fff;
+}
+
+.download{
+    transition: .3s;
 }
 
 .download p{
     margin-left: 10px;
+    transition: .3s;
 }
 
+.download:hover{
+    color: #fff;
+}
 
+p:hover{
+    color: #fff;
+}
 .install-logo i{
     font-size: 10px;
     color: #858585;
+    transition: .3s;
 }
 
 .border-bottom{
