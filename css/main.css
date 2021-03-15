@@ -22,12 +22,14 @@ body{
     /* height: 100vh; */
 }
 
-.main-section{
-    /* height: calc(100vh - 60px); */
-}
+/* .main-section{
+     height: calc(100vh - 60px); 
+} */
 
 .container{
-    /* height: calc(100vh - 60px); */
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+    height: 100%;
 }
 
 .container .side-bar .main-logo{
@@ -181,6 +183,7 @@ body{
 .nav-bar{
     display: flex;
     justify-content: center;
+    padding-top: 100px;
 }
 
 .nav-bar a{
@@ -210,9 +213,17 @@ body{
     width: 100%;
 }
 
+.barra-header{
+    position: relative;
+}
+
 .main-brand .main-barra{
     height: 100px;
     background: rgba(8, 11, 18, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 .bottone-1{
     display: flex;
@@ -236,16 +247,16 @@ body{
 /* IMMAGINI */
 .gallery{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .mini-container .col{
-    width: 250px;
+    width: 230px;
     margin: 10px;
-}
+}   
 
 .immagini{
-    height: 250px;
+    height: 230px;
 }
 
 .immagini img{
@@ -293,7 +304,7 @@ body{
 /* FOOTER */
 .main-footer{
     background: darkslateblue;
-    height: 60px;
+    height: 80px;
 }
 
 .musica{
@@ -304,5 +315,9 @@ body{
 .musica-quad{
     background: dodgerblue;
     border: 1px solid black;
-    height: 60px;
+    height: 80px;
+}
+
+.musica-quad .musica-ascolto{
+
 }
