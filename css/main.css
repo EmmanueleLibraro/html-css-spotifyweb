@@ -303,7 +303,6 @@ body{
 }
 
 .musica-quad{
-    border: 1px solid black;
     height: 80px;
     width: 320px;
 }
@@ -348,11 +347,10 @@ body{
 /* MEDIA-PLAYER */
 .musica-quad-1{
     height: 80px;
-    width: 500px;
-    border: 1px solid black;
+    width: 700px;
 }
 
-.larghezza{
+.larghezza-media{
     flex-basis: 100px;
 }
 
@@ -360,4 +358,60 @@ body{
     display: flex;
     justify-content: center;
     font-size: 30px;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.media-player .icona{
+    font-size: 20px;
+}
+
+.media-player i{
+    margin-left: 30px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+/* LINEA-TEMPO */
+.linea-tempo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linea-tempo p{
+    padding-left: 0;
+    padding: 5px 20px;
+}
+
+.border-tempo{
+    border: 3px solid #858585;
+    width: 80%;
+    height: 3px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* FOOTER-DESTRA */
+.icone-destra-footer{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.icone-destra-footer i{
+    margin-left: 10px;
+}
+
+.barra-volume{
+    border: 3px solid #858585;
+    width: 70%;
+    height: 3px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
