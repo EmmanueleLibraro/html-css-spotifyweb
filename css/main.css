@@ -511,6 +511,18 @@ p:hover{
     display: block;
 }
 
+.border-tempo-2{
+    border: 3px solid #C1C1C1;
+    width: 5%;
+    height: 3px;
+    display: inline-block;
+    border-radius: 5px;
+    position: absolute;
+    left: 35%;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
 .pallina-tempo{
     width: 15px;
     height: 15px;
@@ -555,7 +567,7 @@ p:hover{
     margin-left: 10px;
 }
 
-.linea-tempo2{
+.linea-tempo-1{
     border: 3px solid #ADFF2F;
     width: 35%;
     height: 3px;
@@ -569,8 +581,21 @@ p:hover{
     left: 27%;
 }
 
-.icone-destra-footer:hover .linea-tempo2{
+.icone-destra-footer:hover .linea-tempo-1{
     display: block;
+}
+
+.linea-tempo-2{
+    border: 3px solid #C1C1C1;
+    width: 35%;
+    height: 3px;
+    display: inline-block;
+    border-radius: 5px;
+    position: absolute;
+    left: 35%;
+    margin-left: 15px;
+    cursor: pointer;
+    left: 27%;
 }
 
 .pallina-volume{
