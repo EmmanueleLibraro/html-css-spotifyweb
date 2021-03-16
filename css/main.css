@@ -648,6 +648,11 @@ p:hover{
     .download{
         margin-top: 300px;
     }
+
+    .nav-bar{
+        width: calc(100% / 4);
+        margin: 0 auto;
+    }
    
 
 }
