@@ -217,10 +217,14 @@ p:hover{
     color: #858585;
     text-transform: uppercase;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
     transition: .3s;
+}
+
+.nav-bar a:last-child{
+    margin-right: 0;
 }
 
 .nav-bar .border{
