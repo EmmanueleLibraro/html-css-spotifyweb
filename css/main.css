@@ -627,4 +627,27 @@ p:hover{
     .mini-container .col{
         width: calc(100% / 2 - 20px);
     }
+
+    
+}
+
+@media screen and (max-width: 767px){
+    .container .side-bar{
+        width: 11%;
+    }
+
+    .lista-container h2,
+    .inline-row p,
+    .lista-playlist ul,
+    .side-footer p,
+    .download p,
+    .border-bottom{
+        display: none;
+    }
+
+    .download{
+        margin-top: 300px;
+    }
+   
+
 }
