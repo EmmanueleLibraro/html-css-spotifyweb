@@ -292,6 +292,7 @@ p:hover{
 .mini-container .col{
     width: 230px;
     margin: 10px;
+    padding-left: 10px;
 }   
 
 .immagini:hover .layover,
@@ -366,7 +367,7 @@ p:hover{
     margin-top: 40px;
 }
 .mini-container h2,p{
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .mini-container p{
